@@ -1,5 +1,5 @@
 ---
-title: Your awesome title
+title: Drama Queen
 timezone: America/Bogota
 collections:
   posts:
@@ -8,14 +8,12 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: your-email@example.com
-description: Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+email: camila.bruges@gmail.com
+description: Descripción pendiente
 baseurl: 
 url: 
-twitter_username: jekyllrb
-github_username: jekyll
+twitter_username: dramaqueen_ms
+github_username: dramaqueenw
 theme: minima
 plugins:
 - jekyll-feed

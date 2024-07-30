@@ -20,6 +20,12 @@ html{
   background-color: $highlight;
 }
 
+// Home
+
+.home{
+	overflow: hidden;
+}
+
 // Header
 
 .header-row{
@@ -88,3 +94,15 @@ html{
 	}
 }
 
+// Slideshow
+
+.slideshow{
+	position: relative;
+	top: -100vh;
+	z-index: -100;
+}
+
+.uk-slideshow-02{
+	-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}

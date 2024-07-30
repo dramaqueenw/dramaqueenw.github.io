@@ -1,0 +1,89 @@
+@import 'variables';
+
+
+// General
+
+html{
+	scroll-behavior: smooth;
+	background-color: $dark;
+}
+
+
+.inline{
+	& li{
+		display: inline-block;
+	}
+}
+
+::selection, -moz-selection{
+  color: $bright;
+  background-color: $highlight;
+}
+
+// Header
+
+.header-row{
+	height: 80vh;
+}
+
+.home-title{
+	font-family: $heading;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 7.938rem;
+	color: $bright;
+	margin: 0 0 1.5rem 0;
+}
+
+.home-subtitle{
+	font-family: $sub-heading;
+	font-weight: 400;
+	font-size: 2.563rem;
+	font-style: normal;
+	letter-spacing: .4rem;
+	color: $bright;
+	margin: 0;
+}
+
+// Sr only
+
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+
+// Nav
+
+.desktop-nav{
+	margin-top: 2rem;
+	font-family: $heading;
+	font-weight: 600;
+	font-style: normal;
+	color: $bright;
+}
+
+.left-nav{
+	& li{
+		margin-right: 1.5rem;
+		font-size: 1.313rem;
+		& a{
+			color: $bright;
+			border-bottom: 2px solid $transparent;
+			padding-bottom: .75rem;
+			transition: $transition;
+			&:hover{
+				text-decoration: none;
+				border-bottom: 2px solid $bright;
+			}
+		}
+		& li:last-child{
+			margin-right: 0;
+		}
+	}
+}
+

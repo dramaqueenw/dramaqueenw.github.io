@@ -1,6 +1,6 @@
 ---
-layout: home
 title: Drama Queen
+layout: home
 subtitle: Making Stories
 ---
 

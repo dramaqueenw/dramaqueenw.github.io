@@ -105,4 +105,8 @@ html{
 .uk-slideshow-02{
 	-webkit-transform: scaleX(-1);
   transform: scaleX(-1);
+  & img{
+  	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
+  }
 }

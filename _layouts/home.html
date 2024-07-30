@@ -1,15 +1,9 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- flexbox grid -->
-  <link rel="stylesheet" href="/assets/css/flexboxgrid.min.css">
-  <!-- UIkit CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.20.8/dist/css/uikit.min.css" />
-  <!-- UIkit JS -->
-  <script src="https://cdn.jsdelivr.net/npm/uikit@3.20.8/dist/js/uikit.min.js"></script>
-</head><body>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+	{%- include head.html -%}
+
+	<body>
 
 		<!-- nav -->
 		<nav class="desktop-nav">

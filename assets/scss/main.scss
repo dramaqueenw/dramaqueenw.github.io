@@ -8,6 +8,10 @@ html{
 	background-color: $dark;
 }
 
+.wrapper{
+	// max-width: 1600px;
+	// margin: 0 auto;
+}
 
 .inline{
 	& li{
@@ -23,13 +27,17 @@ html{
 // Home
 
 .home{
-	overflow: hidden;
+
 }
 
 // Header
 
 .header-row{
-	height: 84vh;
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	z-index: 100;
+	top: 0;
 }
 
 .home-title{
@@ -72,6 +80,13 @@ html{
 	color: $bright;
 }
 
+.home-nav{
+	position: absolute;
+	width: 100%;
+	z-index: 200;
+	top: 0;
+}
+
 .left-nav{
 	& li{
 		margin-right: 1.5rem;
@@ -98,8 +113,6 @@ html{
 }
 
 .right-nav{
-	position: relative;
-	top: -.25rem;
 	& li{
 		margin-right: 1rem;
 		& li:last-child{
@@ -123,9 +136,13 @@ html{
 // Slideshow
 
 .slideshow{
-	position: relative;
-	top: -100vh;
-	z-index: -100;
+	& .row{
+		height: 50vh;
+	}
+	& img{
+		// width: auto;
+		// height: 100%;
+	}
 }
 
 .uk-slideshow-02{

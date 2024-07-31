@@ -24,10 +24,10 @@
 					<!-- col end -->
 					<!-- col -->
 					<div class="col-xs-4 end-xs">
-						<ul class="inline">
-							<li><a href="#">X</a></li>
-							<li><a href="#">Instagram</a></li>
-							<li><a href="#">Vimeo</a></li>
+						<ul class="inline right-nav">
+							{% for social in site.data.social %}
+              					<li class="link icon"><a href="{{ social.url }}" target="_blank"><span class="icon {{ social.icon }}"></span></a></li>
+            				{% endfor %}
 						</ul>
 					</div>
 					<!-- col end -->					

@@ -7,8 +7,8 @@
 			<!-- col -->
 			<div class="col-xs-12">
 				<ul class="inline">
-					{% for social in site.data.social %}
-  						<li class="link icon"><a href="{{ social.url }}" target="_blank"><span class="icon {{ social.icon }}"></span></a></li>
+					{% for platform in site.platforms %}
+						<li><a href="{{ platform.profile-url }}" target="_blank"><span class="icon icon-{{ platform.icon }}"></span></a></li>
 					{% endfor %}
 					<li class="hamburger"><a uk-toggle="target: #modal-nav"><span class="icon icon-hamburger-bite"></span></a></li>
 				</ul>

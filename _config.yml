@@ -5,15 +5,15 @@ collections:
   down-characters:
     title: Down Characters
     output: true
+  platforms:
+    title: Platforms
+    output: true
   posts:
     title: Posts
     output: true
   up-characters:
     title: Up Characters
     output: true
-  platforms:
-    title: Platforms
-    output: true  
   uploads:
     title: Uploads
     output: true

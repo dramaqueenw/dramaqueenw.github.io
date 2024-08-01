@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+	{%- include head.html -%}
+
+	<body>
+		{% include nav-xs.html%}	
+		{% include nav-lg.html%}
+
+		<header class="making-stories-header">
+			<!-- wrapper -->
+			<div class="wrapper container-fluid">
+				<!-- row -->
+				<div class="row">
+					<!-- col -->
+					<div class="col-xs-12">
+						<h1>{{ page.heading }}</h1>
+						<h2>{{ page.title }}</h2>	
+					</div>
+					<!-- col end -->
+				</div>
+				<!-- row end -->
+				<!-- row -->
+				<div class="row">
+					{% for cosa in site.cosas %}
+						<!-- col -->
+						<div class="col-xs-12 col-sm-6">
+							<h4>{{ cosa.title }}</h4>
+							<p>{{ cosa.content }}</p>
+						</div>
+						<!-- col end -->
+					{% endfor %}
+				</div>
+				<!-- row end -->
+			</div>
+			<!-- wrapper end -->
+		</header>
+
+	</body>
+
+</html>		

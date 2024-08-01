@@ -5,67 +5,33 @@
 
 	<body class="home">
 
+		{% include nav-xs.html%}	
+		{% include nav-lg.html%}
 
-	{% include nav-xs.html%}	
-	{% include nav-lg.html%}
+	    <!-- header -->
+	    <section class="header">
+	    	<!-- wrapper -->
+	    	<div class="wrapper container-fluid">
+	    		<!-- row -->
+	    		<div class="row center-xs middle-xs header-row">
+	    			<!-- col -->
+		    		<div class="col-xs-12 ">
+		    			<h1 class="home-title">{{ page.title }}</h1>
+	    				<h2 class="home-subtitle">{{ page.subtitle }}</h2>
+	    			</div>
+	    			<!-- col end -->
+	    		</div>
+	    		<!-- row end -->
+	    	</div>
+	    	<!-- wrapper end -->
+	    </section>
+	    <!-- header end -->
 
-    <!-- header -->
-    <section class="header">
-    	<!-- wrapper -->
-    	<div class="wrapper container-fluid">
-    		<!-- row -->
-    		<div class="row center-xs middle-xs header-row">
-    			<!-- col -->
-	    		<div class="col-xs-12 ">
-	    			<h1 class="home-title">{{ page.title }}</h1>
-    				<h2 class="home-subtitle">{{ page.subtitle }}</h2>
-    			</div>
-    			<!-- col end -->
-    		</div>
-    		<!-- row end -->
-    	</div>
-    	<!-- wrapper end -->
-    </section>
-    <!-- header end -->
+	    {% include slideshow-xs.html%}
+	    {% include slideshow-sm.html%}
+	    {% include slideshow-lg.html%}
 
-    {% include slideshow-xs.html%}
-    {% include slideshow-sm.html%}
-    {% include slideshow-lg.html%}
-
-	<!-- Modal nav -->
-	<div id="modal-nav" class="uk-modal-full" uk-modal>
-	  <div class="uk-modal-dialog">
-	        <!-- wrapper -->
-	        <div class="wrapper container-fluid">
-	          <!-- row -->
-	          <div class="row">
-	            <div class="col-xs-12 end-xs">
-	              <a class="uk-modal-close modal-close" uk-close><span class="icon icon-close" type="button"></span></a>
-	            </div>
-	          </div>
-	          <!-- row end -->          
-	          <!-- row -->
-	          <div class="row modal-nav middle-xs">
-	            <!-- col -->
-	            <div class="col-xs-12">
-	              <!-- row -->
-	              <div class="row center-xs ">
-	                <!-- col -->
-	                <div class="col-xs-10">
-	                  <ul></ul>
-	                </div>
-	                <!-- col end -->
-	              </div>
-	              <!-- row end --> 
-	            </div>
-	            <!-- col end -->
-	          </div>
-	          <!-- row end -->
-	        </div>
-	        <!-- wrapper end -->
-	    </div>
-	</div>
-	<!-- Modal nav end -->
+	    {% include modal-nav.html%}
 
 	</body>
 

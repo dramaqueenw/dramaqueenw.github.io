@@ -2,6 +2,9 @@
 title: Drama Queen
 timezone: America/Bogota
 collections:
+  cosas:
+    title: Cosas
+    output: true
   down-characters:
     title: Down Characters
     output: true

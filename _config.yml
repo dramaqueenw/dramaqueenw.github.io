@@ -17,3 +17,11 @@ github_username: dramaqueenw
 theme: minima
 plugins:
 - jekyll-feed
+
+
+collections: 
+  up-characters:
+    output: true
+  down-characters:
+    output: true  
+

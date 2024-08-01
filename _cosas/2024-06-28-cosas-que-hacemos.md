@@ -1,6 +1,8 @@
 ---
 title: Cosas que hacemos
+date: 2024-06-28 00:00:00 -05:00
 ---
+
 - Contamos historias
 - Escribimos guiones
 - Hacemos dibujitos en las servilletas cuando nos reunimos con clientes

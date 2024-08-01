@@ -29,7 +29,7 @@ html{
 // Header
 
 .header-row{
-	height: 84vh;
+	height: 87vh;
 }
 
 .home-title{
@@ -38,7 +38,7 @@ html{
 	font-style: normal;
 	color: $bright;
 	font-size: 3.1rem;
-	margin: 0 0 0.3rem 0;
+	margin: -4rem 0 0.3rem 0;
 }
 
 .home-subtitle{
@@ -65,6 +65,27 @@ html{
 
 // Nav
 
+.nav-xs{
+	margin-top: 2rem;
+	& li{
+		margin-right: 1rem;
+		font-size: 1.5rem;
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+	& a{
+		color: $bright;
+	}
+	& .hamburger{
+		& a{
+			font-size: 2rem;
+			position: relative;
+			top: .25rem;
+		}
+	}
+}
+
 .nav-lg{
 	margin-top: 2rem;
 	font-family: $heading;
@@ -86,9 +107,6 @@ html{
 				border-bottom: 2px solid $bright;
 			}
 		}
-		& li:last-child{
-			margin-right: 0;
-		}
 	}
 	& .active{
 		& a{
@@ -102,7 +120,7 @@ html{
 	top: -.25rem;
 	& li{
 		margin-right: 1rem;
-		& li:last-child{
+		&:last-child{
 			margin-right: 0;
 		}
 		& a{

@@ -10,13 +10,14 @@
 		<!-- wrapper -->
 		<div class="wrapper container-fluid">
 			<!-- row -->
-			<div class="row end-xs">
+			<div class="row end-xs middle-xs">
 				<!-- col -->
 				<div class="col-xs-12">
 					<ul class="inline">
 						{% for social in site.data.social %}
       						<li class="link icon"><a href="{{ social.url }}" target="_blank"><span class="icon {{ social.icon }}"></span></a></li>
     					{% endfor %}
+    					<li class="hamburger"><a href=""><span class="icon icon-hamburger-bite"></span></a></li>
 					</ul>
 				</div>
 				<!-- col end -->

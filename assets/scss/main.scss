@@ -8,7 +8,7 @@ html{
 	background-color: $dark;
 	color: $bright;
 	font-family: $paragraph;
-	font-size: 1.125rem;
+	font-size: 1.25rem;
 }
 
 
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6{
 
 p{
 	color: $bright;
-	font-size: 1.125rem;
+	font-size: 1.25rem;
 	font-family: $paragraph;
 }
 
@@ -45,7 +45,7 @@ h2{
 	font-size: 1.802rem;
 }
 
-h4{
+h3{
 	font-family: $sub-heading;
 	font-weight: 400;
 	letter-spacing: .26rem;
@@ -69,7 +69,7 @@ h4{
 	font-optical-sizing: auto;
 	font-style: normal;
 	color: $bright;
-	font-size: 3.1rem;
+	font-size: 2.5rem;
 	margin: -3rem 0 0.3rem 0;
 }
 
@@ -98,10 +98,10 @@ h4{
 // Nav
 
 .nav-xs{
-	margin-top: 1.25rem;
+	padding-top: 1.25rem;
 	& li{
-		margin-right: 1rem;
-		font-size: 1.5rem;
+		margin-right: .75rem;
+		font-size: 1.25rem;
 		&:last-child{
 			margin-right: 0;
 		}
@@ -111,11 +111,15 @@ h4{
 	}
 	& .hamburger{
 		& a{
-			font-size: 2rem;
+			font-size: 1.5rem;
 			position: relative;
 			top: .25rem;
 		}
 	}
+}
+
+.nav-xs-inside{
+	background-color: $dark;
 }
 
 .nav-lg{
@@ -201,7 +205,7 @@ h4{
 }
 
 .modal-close{
-	font-size: 2rem;
+	font-size: 1.5rem;
 	margin-top: 1.75rem;
 	color: $bright;
 	&:hover{
@@ -216,5 +220,31 @@ h4{
 // Making Stories
 
 .making-stories{
-
+	margin: 2.5rem 0;
+	& li{
+		list-style-type: '∙';
+  	padding-inline-start: .5rem;
+  	margin-left: -1.25rem;
+	}
+	& header{
+		margin-bottom: 2rem; 
+		& h1, & h2{
+			margin: 0;
+		}
+		& h1{
+			margin: 0 0 .25rem 0;
+		}
+		& h2{
+			font-size: 1.266rem;
+			letter-spacing: .2rem;
+		}
+	}
+	& .content{
+		h3{
+			line-height: 1.5rem;
+		}
+		ul, p{
+			margin-bottom: 2rem;
+		}
+	}
 }

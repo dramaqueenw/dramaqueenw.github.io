@@ -1,0 +1,22 @@
+<!-- nav-xs -->
+<nav class="nav-xs nav-xs-inside visible-xs hidden-sm hidden-lg" uk-sticky>
+	<!-- wrapper -->
+	<div class="wrapper container-fluid">
+		<!-- row -->
+		<div class="row end-xs middle-xs">
+			<!-- col -->
+			<div class="col-xs-12">
+				<ul class="inline">
+					{% for platform in site.platforms %}
+						<li><a href="{{ platform.profile-url }}" target="_blank"><span class="icon icon-{{ platform.icon }}"></span></a></li>
+					{% endfor %}
+					<li class="hamburger"><a uk-toggle="target: #modal-nav"><span class="icon icon-hamburger-bite"></span></a></li>
+				</ul>
+			</div>
+			<!-- col end -->
+		</div>
+		<!-- row end -->
+	</div>
+	<!-- wrapper end -->
+</nav>
+<!-- nav-xs-end -->

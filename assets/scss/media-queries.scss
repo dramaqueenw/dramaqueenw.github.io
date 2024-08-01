@@ -20,6 +20,13 @@
   .hidden-sm{
     display: none;
   }
+  .home-title{
+    font-size: 6.1rem;
+    margin: 0 0 0.3rem 0;
+  }
+  .home-subtitle{
+    font-size: 2.25rem;
+  }
 }
 
 // lg - from 962
@@ -39,19 +46,19 @@
   }
   .home-title{
     font-size: 8.375rem;
-    margin: 0 0 0.75rem 0;
-    margin: 0 0 0.3rem 0;
+    margin: .75rem 0 0.3rem 0;
   }
   .home-subtitle{
     font-size: 2.563rem;
-    font-style: normal;
-    letter-spacing: .4rem;
   }
   .uk-slideshow-01{
     margin-top: -.175rem;
   }
 }
 
-// lg - from 1200
-@media only screen and (min-width: 75em) {
+// lg - from 1460
+@media only screen and (min-width: 91.25em) {
+  .slideshow{
+    top: -109vh;
+  }
 }

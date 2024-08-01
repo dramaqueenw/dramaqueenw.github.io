@@ -5,27 +5,9 @@
 
 	<body class="home">
 
+
+	{% include nav-xs.html%}	
 	{% include nav-lg.html%}
-	<nav class="nav-xs visible-xs hidden-sm hidden-lg">
-		<!-- wrapper -->
-		<div class="wrapper container-fluid">
-			<!-- row -->
-			<div class="row end-xs middle-xs">
-				<!-- col -->
-				<div class="col-xs-12">
-					<ul class="inline">
-						{% for social in site.data.social %}
-      						<li class="link icon"><a href="{{ social.url }}" target="_blank"><span class="icon {{ social.icon }}"></span></a></li>
-    					{% endfor %}
-    					<li class="hamburger"><a href=""><span class="icon icon-hamburger-bite"></span></a></li>
-					</ul>
-				</div>
-				<!-- col end -->
-			</div>
-			<!-- row end -->
-		</div>
-		<!-- wrapper end -->
-	</nav>
 
     <!-- header -->
     <section class="header">
@@ -47,7 +29,43 @@
     <!-- header end -->
 
     {% include slideshow-xs.html%}
+    {% include slideshow-sm.html%}
     {% include slideshow-lg.html%}
+
+	<!-- Modal nav -->
+	<div id="modal-nav" class="uk-modal-full" uk-modal>
+	  <div class="uk-modal-dialog">
+	        <!-- wrapper -->
+	        <div class="wrapper container-fluid">
+	          <!-- row -->
+	          <div class="row">
+	            <div class="col-xs-12 end-xs">
+	              <a class="uk-modal-close modal-close" uk-close><span class="icon icon-close" type="button"></span></a>
+	            </div>
+	          </div>
+	          <!-- row end -->          
+	          <!-- row -->
+	          <div class="row modal-nav middle-xs">
+	            <!-- col -->
+	            <div class="col-xs-12">
+	              <!-- row -->
+	              <div class="row center-xs ">
+	                <!-- col -->
+	                <div class="col-xs-10">
+	                  
+	                </div>
+	                <!-- col end -->
+	              </div>
+	              <!-- row end --> 
+	            </div>
+	            <!-- col end -->
+	          </div>
+	          <!-- row end -->
+	        </div>
+	        <!-- wrapper end -->
+	    </div>
+	</div>
+	<!-- Modal nav end -->
 
 	</body>
 

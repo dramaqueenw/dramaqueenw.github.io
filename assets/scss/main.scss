@@ -38,7 +38,7 @@ html{
 	font-style: normal;
 	color: $bright;
 	font-size: 3.1rem;
-	margin: -4rem 0 0.3rem 0;
+	margin: -3rem 0 0.3rem 0;
 }
 
 .home-subtitle{
@@ -66,7 +66,7 @@ html{
 // Nav
 
 .nav-xs{
-	margin-top: 1rem;
+	margin-top: 1.25rem;
 	& li{
 		margin-right: 1rem;
 		font-size: 1.5rem;
@@ -142,7 +142,7 @@ html{
 
 .slideshow{
 	position: relative;
-	top: -100vh;
+	top: -98vh;
 	z-index: -100;
 }
 
@@ -157,4 +157,26 @@ html{
   	-webkit-transform: scaleX(-1);
   	transform: scaleX(-1);
   }
+}
+
+// Modal
+
+#modal-nav{
+	background-color: $dark;
+	& .wrapper{
+		background-color: $dark;
+	}
+}
+
+.modal-close{
+	font-size: 2rem;
+	margin-top: 1.75rem;
+	color: $bright;
+	&:hover{
+		text-decoration: none;
+		color: $bright;
+	} 
+	& svg{
+		display: none;
+	}
 }

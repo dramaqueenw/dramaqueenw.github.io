@@ -7,34 +7,51 @@
 		{% include nav-xs.html%}	
 		{% include nav-lg.html%}
 
-		<header class="making-stories-header">
-			<!-- wrapper -->
-			<div class="wrapper container-fluid">
-				<!-- row -->
-				<div class="row">
-					<!-- col -->
-					<div class="col-xs-12">
-						<h1>{{ page.heading }}</h1>
-						<h2>{{ page.title }}</h2>	
-					</div>
-					<!-- col end -->
-				</div>
-				<!-- row end -->
-				<!-- row -->
-				<div class="row">
-					{% for cosa in site.cosas %}
+		<!-- making-stories -->
+		<div class="making-stories" uk-scrollspy="cls: uk-animation-fade; delay: 100">
+
+			<!-- header -->
+			<header>
+				<!-- wrapper -->
+				<div class="wrapper container-fluid">
+					<!-- row -->
+					<div class="row">
 						<!-- col -->
-						<div class="col-xs-12 col-sm-6">
-							<h4>{{ cosa.title }}</h4>
-							<p>{{ cosa.content }}</p>
+						<div class="col-xs-12">
+							<h1>{{ page.heading }}</h1>
+							<h2>{{ page.title }}</h2>	
 						</div>
 						<!-- col end -->
-					{% endfor %}
+					</div>
+					<!-- row end -->
 				</div>
-				<!-- row end -->
-			</div>
-			<!-- wrapper end -->
-		</header>
+				<!-- wrapper end -->
+			</header>
+			<!-- header end -->
+
+			<!-- content -->
+			<section class="content">
+				<!-- wrapper -->
+				<div class="wrapper container-fluid">
+					<!-- row -->
+					<div class="row">
+						{% for cosa in site.cosas %}
+							<!-- col -->
+							<div class="col-xs-12 col-sm-6">
+								<h4>{{ cosa.title }}</h4>
+								{{ cosa.content }}
+							</div>
+							<!-- col end -->
+						{% endfor %}
+					</div>
+					<!-- row end -->
+				</div>
+				<!-- wrapper end -->
+			</section>
+			<!-- content end -->
+
+		</div>
+		<!-- making-stories end -->
 
 	</body>
 

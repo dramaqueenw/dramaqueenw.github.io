@@ -6,6 +6,25 @@
 	<body class="home">
 
 	{% include nav-lg.html%}
+	<nav class="nav-xs visible-xs hidden-sm hidden-lg">
+		<!-- wrapper -->
+		<div class="wrapper container-fluid">
+			<!-- row -->
+			<div class="row end-xs">
+				<!-- col -->
+				<div class="col-xs-12">
+					<ul class="inline">
+						{% for social in site.data.social %}
+      						<li class="link icon"><a href="{{ social.url }}" target="_blank"><span class="icon {{ social.icon }}"></span></a></li>
+    					{% endfor %}
+					</ul>
+				</div>
+				<!-- col end -->
+			</div>
+			<!-- row end -->
+		</div>
+		<!-- wrapper end -->
+	</nav>
 
     <!-- header -->
     <section class="header">
@@ -26,6 +45,7 @@
     </section>
     <!-- header end -->
 
+    {% include slideshow-xs.html%}
     {% include slideshow-lg.html%}
 
 	</body>

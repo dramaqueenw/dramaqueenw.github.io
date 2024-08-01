@@ -2,8 +2,14 @@
 title: Drama Queen
 timezone: America/Bogota
 collections:
+  down-characters:
+    title: Down Characters
+    output: true
   posts:
     title: Posts
+    output: true
+  up-characters:
+    title: Up Characters
     output: true
   uploads:
     title: Uploads
@@ -17,11 +23,3 @@ github_username: dramaqueenw
 theme: minima
 plugins:
 - jekyll-feed
-
-
-collections: 
-  up-characters:
-    output: true
-  down-characters:
-    output: true  
-

@@ -11,6 +11,9 @@ collections:
   up-characters:
     title: Up Characters
     output: true
+  platforms:
+    title: Platforms
+    output: true  
   uploads:
     title: Uploads
     output: true
@@ -18,8 +21,6 @@ email: camila.bruges@gmail.com
 description: Descripción pendiente
 baseurl: 
 url: 
-twitter_username: dramaqueen_ms
-github_username: dramaqueenw
 theme: minima
 plugins:
 - jekyll-feed

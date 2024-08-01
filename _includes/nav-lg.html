@@ -19,9 +19,9 @@
 			<!-- col -->
 			<div class="col-xs-4 end-xs">
 				<ul class="inline right-nav">
-					{% for social in site.data.social %}
-      					<li class="link icon"><a href="{{ social.url }}" target="_blank"><span class="icon {{ social.icon }}"></span></a></li>
-    				{% endfor %}
+					{% for platform in site.platforms %}
+						<li><a href="{{ platform.profile-url }}"><span class="icon icon-{{ platform.icon }}"></span></a></li>
+					{% endfor %}
 				</ul>
 			</div>
 			<!-- col end -->					

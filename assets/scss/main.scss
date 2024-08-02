@@ -52,6 +52,10 @@ h3{
 	font-size: 1.419rem;
 }
 
+ul{
+	padding: 0;
+}
+
 // Home
 
 .home{
@@ -131,8 +135,8 @@ h3{
 
 .left-nav{
 	& li{
-		margin-right: 1.5rem;
-		font-size: 1.313rem;
+		margin-right: 1.25rem;
+		font-size: 1.125rem;
 		& a{
 			color: $bright;
 			border-bottom: 2px solid $transparent;
@@ -155,13 +159,13 @@ h3{
 	position: relative;
 	top: -.25rem;
 	& li{
-		margin-right: 1rem;
+		margin-right: .75rem;
 		&:last-child{
 			margin-right: 0;
 		}
 		& a{
 			color: $bright;
-			font-size: 1.5rem;
+			font-size: 1.25rem;
 			color: $bright;
 			border-bottom: 2px solid $transparent;
 			padding-bottom: .75rem;
@@ -224,7 +228,6 @@ h3{
 	& li{
 		list-style-type: '∙';
   	padding-inline-start: .5rem;
-  	margin-left: -1.25rem;
 	}
 	& header{
 		margin-bottom: 2rem; 

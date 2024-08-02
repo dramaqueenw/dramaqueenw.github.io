@@ -6,16 +6,16 @@ collections:
     title: Cosas
     output: true
   down-characters:
-    title: Down Characters
+    title: Personajes arriba
     output: true
   platforms:
-    title: Platforms
+    title: Plataformas
     output: true
   posts:
     title: Posts
     output: true
   up-characters:
-    title: Up Characters
+    title: Personajes abajo
     output: true
   uploads:
     title: Uploads

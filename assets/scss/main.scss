@@ -251,3 +251,40 @@ ul{
 		}
 	}
 }
+
+// Modal nav
+
+.modal-nav{
+	& header{
+		margin: 5rem 0 3rem 0;
+		& h2{
+			font-family: $heading;
+			letter-spacing: initial;
+			margin-bottom: .25rem;
+			font-size: 1.9rem;
+		}
+		& h3{
+			font-family: $sub-heading;
+			font-size: .9rem;
+			margin: 0;
+		}
+	}
+	& .links{
+		font-family: $heading;
+		& li{
+			list-style-type: none;
+			margin-bottom: 1.25rem;
+			& a{
+				color: $bright;
+				font-size: 1.425rem;
+				border-bottom: 2px solid $transparent;
+				padding-bottom: .25rem;
+			}
+		}
+		& .active{
+			& a{
+				border-bottom: 2px solid $bright;
+			}
+		}		
+	}
+}

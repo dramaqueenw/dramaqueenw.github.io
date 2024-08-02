@@ -15,10 +15,21 @@
             <!-- col -->
             <div class="col-xs-12">
               <!-- row -->
-              <div class="row center-xs ">
+              <div class="row center-xs">
                 <!-- col -->
                 <div class="col-xs-10">
-                  <ul></ul>
+                  <header>  
+                    <h2>{{ site.title }}</h2>
+                    <h3>{{ site.subtitle }}</h3>
+                  </header>  
+                  <ul class="links">
+                    <li class="{% if page.url == '/' %}active{% endif %}"><a href="/">Inicio</a></li>
+                    {% for post in site.pages %}
+                      {% if post.url != "/" and post.title != nil %}
+                        <li class="{% if post.url == page.url %}active{% endif %}"><a href="{{ post.url }}">{{ post.title }}</a></li>
+                      {% endif %}
+                    {% endfor %}                    
+                  </ul>
                 </div>
                 <!-- col end -->
               </div>

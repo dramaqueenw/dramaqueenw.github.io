@@ -1,6 +1,5 @@
 ---
 title: Drama Queen
-subtitle: Making Stories
 timezone: America/Bogota
 collections:
   cosas:
@@ -21,6 +20,7 @@ collections:
   uploads:
     title: Uploads
     output: true
+subtitle: Making Stories
 email: camila.bruges@gmail.com
 description: Descripción pendiente
 baseurl: 

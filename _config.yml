@@ -5,6 +5,9 @@ collections:
   cosas:
     title: Cosas
     output: true
+  up-characters:
+    title: Personajes abajo
+    output: true
   down-characters:
     title: Personajes arriba
     output: true
@@ -13,9 +16,6 @@ collections:
     output: true
   posts:
     title: Posts
-    output: true
-  up-characters:
-    title: Personajes abajo
     output: true
   uploads:
     title: Uploads

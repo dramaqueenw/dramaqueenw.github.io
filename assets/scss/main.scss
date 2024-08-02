@@ -252,6 +252,30 @@ ul{
 	}
 }
 
+// Videos
+
+.video-gallery{
+	margin-top: 4rem;
+	& .wrapper{
+		max-width: 1136px;
+	}
+	& a{
+		color: $bright;
+		text-decoration: none;
+	}
+	h4{
+		font-family: $sub-heading;
+		letter-spacing: .2rem;
+		font-size: 1.266rem;
+	}
+	& img{
+		transition: $transition-quick;
+		&:hover{
+			transform: scale(1.025);
+		}
+	}
+}
+
 // Modal nav
 
 .modal-nav{

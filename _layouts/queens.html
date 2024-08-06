@@ -5,13 +5,27 @@
 
 	<body>
 		{% include nav-xs-inside.html%}	
-		{% include nav-lg.html%}
+		{% include nav-lg-inside.html%}
 
-		<div class="queens">
+		<div class="queens" uk-scrollspy="cls: uk-animation-fade; delay: 100">
 			<!-- wrapper -->
 			<div class="wrapper container-fluid">
 				<!-- row -->
-				<!-- row end -->
+				<!-- row -->
+					<div class="row">
+						{% for queen in site.queens %}
+							<!-- col -->
+							<div class="col-xs-12 col-lg-6 queen-imdb">
+								<h2>{{ queen.title }}</h2>
+								<a class="imdb" href="{{ queen.imdb }}" target="_blank"><span class="icon icon-imdb"></span> {{ queen.imdb-text }} <span class="icon icon-arrow-right"></span></a>
+								<div class="content">
+									{{ queen.content }}
+								</div>
+							</div>
+							<!-- col end -->
+						{% endfor %}
+					</div>
+					<!-- row end -->
 			</div>
 			<!-- wrapper end -->
 		</div>

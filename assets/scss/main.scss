@@ -8,7 +8,7 @@ html{
 	background-color: $dark;
 	color: $bright;
 	font-family: $paragraph;
-	font-size: 1.25rem;
+	font-size: 1rem;
 }
 
 
@@ -29,13 +29,19 @@ h1, h2, h3, h4, h5, h6{
 
 p{
 	color: $bright;
-	font-size: 1.25rem;
+	font-size: 1.2rem;
+	line-height: 175%;
 	font-family: $paragraph;
+}
+
+li{
+	font-size: 1.2rem;
+	line-height: 175%;
 }
 
 h1{
 	font-family: $heading;
-	font-size: 1.802rem;
+	font-size: 2.5rem;
 }
 
 h2{
@@ -56,6 +62,14 @@ ul{
 	padding: 0;
 }
 
+a{
+	color: $bright;
+	&:hover{
+		color: $bright;
+		text-decoration: none;
+	}
+}
+
 // Home
 
 .home{
@@ -73,14 +87,14 @@ ul{
 	font-optical-sizing: auto;
 	font-style: normal;
 	color: $bright;
-	font-size: 2.5rem;
-	margin: -3rem 0 0.3rem 0;
+	font-size: 2.625rem;
+	margin: 0;
 }
 
 .home-subtitle{
 	font-family: $sub-heading;
 	font-weight: 400;
-	font-size: 1.4rem;
+	font-size: 1rem;
 	font-style: normal;
 	letter-spacing: .4rem;
 	color: $bright;
@@ -105,7 +119,7 @@ ul{
 	padding-top: 1.25rem;
 	& li{
 		margin-right: .75rem;
-		font-size: 1.25rem;
+		font-size: 1.5rem;
 		&:last-child{
 			margin-right: 0;
 		}
@@ -115,19 +129,19 @@ ul{
 	}
 	& .hamburger{
 		& a{
-			font-size: 1.5rem;
+			font-size: 2rem;
 			position: relative;
 			top: .25rem;
 		}
 	}
 }
 
-.nav-xs-inside{
+.nav-xs-inside, .nav-lg-inside{
 	background-color: $dark;
 }
 
 .nav-lg{
-	margin-top: 2rem;
+	padding-top: 2rem;
 	font-family: $heading;
 	font-style: normal;
 	color: $bright;
@@ -135,8 +149,8 @@ ul{
 
 .left-nav{
 	& li{
-		margin-right: 1.25rem;
-		font-size: 1.125rem;
+		margin-right: 1.5rem;
+		font-size: 1.424rem;
 		& a{
 			color: $bright;
 			border-bottom: 2px solid $transparent;
@@ -182,12 +196,8 @@ ul{
 
 .slideshow{
 	position: relative;
-	top: -100vh;
+	top: -95vh;
 	z-index: -100;
-}
-
-.uk-slideshow-01{
-
 }
 
 .uk-slideshow-02{
@@ -238,17 +248,60 @@ ul{
 			margin: 0 0 .25rem 0;
 		}
 		& h2{
-			font-size: 1.266rem;
-			letter-spacing: .2rem;
+			font-size: 1.5rem;
+			letter-spacing: .25rem;
 		}
 	}
 	& .content{
 		h3{
+			font-size: 1.602rem;
 			line-height: 1.5rem;
 		}
 		ul, p{
 			margin-bottom: 2rem;
 		}
+	}
+}
+
+// Queens
+
+.queens{
+	margin: 2.5rem 0;
+	& h2{
+		font-size: 2rem;
+		letter-spacing: .25rem;
+		}
+	& a{
+		font-size: 1.125rem;
+		font-weight: $bold;
+	}
+	& .queen-imdb{
+		margin-bottom: 2rem;
+	}
+	& .imdb{
+		position: relative;
+		top: -3.5rem;
+		border-bottom: 2px solid $transparent;
+		padding-bottom: 1.25rem;
+		transition: $transition;
+		&:hover{
+			border-bottom: 2px solid $bright;
+		}
+		.icon-imdb{
+			font-size: 5rem;
+			margin-right: .75rem;
+			position: relative;
+			top: 1.75rem;
+		}
+		.icon-arrow-right{
+			margin-left: .75rem;
+			font-size: 1.75rem;
+			position: relative;
+			top: .25rem;
+		}
+	}
+	& .content{
+		margin-top: -1rem;
 	}
 }
 
@@ -285,11 +338,11 @@ ul{
 			font-family: $heading;
 			letter-spacing: initial;
 			margin-bottom: .25rem;
-			font-size: 1.9rem;
+			font-size: 2rem;
 		}
 		& h3{
 			font-family: $sub-heading;
-			font-size: .9rem;
+			font-size: 1rem;
 			margin: 0;
 		}
 	}
@@ -300,7 +353,7 @@ ul{
 			margin-bottom: 1.25rem;
 			& a{
 				color: $bright;
-				font-size: 1.425rem;
+				font-size: 1.5rem;
 				border-bottom: 2px solid $transparent;
 				padding-bottom: .25rem;
 			}

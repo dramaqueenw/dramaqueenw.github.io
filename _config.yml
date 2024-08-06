@@ -19,7 +19,7 @@ collections:
     output: true
   queens:
     title: Queens
-    output: true  
+    output: true
   uploads:
     title: Uploads
     output: true

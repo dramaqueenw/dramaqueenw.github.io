@@ -13,20 +13,53 @@
 				<!-- row -->
 				<div class="row">
 					<!-- col -->
+					{% for video in site.videos %}
 					<div class="col-xs-12 col-sm-6 col-lg-4">
-						<a href="">
+						<a uk-toggle="target: #{{ video.modal }}">
 							<figure>
-								<img src="/assets/images/home-slideshow/viuda-arriba-xs.jpg" alt="">
+								<img src="{{ video.image }}" alt="">
 							</figure>
-							<h4>No se lo digas a nadie trailer 2019</h4>
+							<h4>{{ video.title }}</h4>
 						</a>
 					</div>
+					{% endfor %}
 					<!-- col end -->
 				</div>
 				<!-- row end -->
 			</div>
 			<!-- wrapper end -->
 		</section>
+
+		{% for video in site.videos %}
+		<!-- Modal video -->
+		<div id="{{ video.modal }}" class="uk-modal-full modal-video" uk-modal>
+		  <div class="uk-modal-dialog">
+		        <!-- wrapper -->
+		        <div class="wrapper container-fluid">
+		          <!-- row -->
+		          <div class="row">
+		            <div class="col-xs-12 end-xs">
+		              <a class="uk-modal-close modal-close" uk-close><span class="icon icon-close" type="button"></span></a>
+		            </div>
+		          </div>
+		          <!-- row end -->          
+		          <!-- row -->
+		          <div class="row content middle-xs">
+		            <!-- col -->
+		            <div class="col-xs-12 col-lg-10 col-lg-offset-1">
+		            	<div class="video-wrapper">
+		            		<iframe title="vimeo-player" src="{{ video.embed }}" frameborder="0" allowfullscreen uk-video></iframe>
+		            	</div>
+		            </div>
+		            <!-- col end -->
+		          </div>
+		          <!-- row end -->
+		        </div>
+		        <!-- wrapper end -->
+		    </div>
+		</div>
+		<!-- Modal video end -->
+		{% endfor %}
 
 		{% include modal-nav.html%}
 

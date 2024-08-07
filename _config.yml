@@ -20,12 +20,16 @@ collections:
   queens:
     title: Queens
     output: true
+  videos:
+    title: Video
+    output: true  
   uploads:
     title: Uploads
     output: true
 subtitle: Making Stories
 email: camila.bruges@gmail.com
 description: Descripción pendiente
+image:
 baseurl: 
 url: 
 theme: minima
@@ -35,3 +39,4 @@ instagram: dramaqueenstories
 vimeo: dramaqueenstories
 plugins:
 - jekyll-feed
+- jekyll-seo-tag

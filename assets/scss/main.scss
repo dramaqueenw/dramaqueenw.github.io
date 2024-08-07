@@ -238,7 +238,7 @@ a{
 
 // Modal
 
-#modal-nav{
+#modal-nav, .modal-video{
 	background-color: $dark;
 	& .wrapper{
 		background-color: $dark;
@@ -246,7 +246,7 @@ a{
 }
 
 .modal-close{
-	font-size: 1.5rem;
+	font-size: 2rem;
 	margin-top: 1.75rem;
 	color: $bright;
 	&:hover{
@@ -348,15 +348,45 @@ a{
 		text-decoration: none;
 	}
 	h4{
+		margin: 0;
 		font-family: $sub-heading;
 		letter-spacing: .2rem;
-		font-size: 1.266rem;
+		font-size: 1.802rem;
+		border-bottom: 2px solid $transparent;
+		padding-bottom: .5rem;
+		transition: $transition;
+		&:hover{
+			border-bottom: 2px solid $bright;
+		}
+	}
+	& figure{
+		margin-bottom: 1rem;
 	}
 	& img{
 		transition: $transition-quick;
 		&:hover{
 			transform: scale(1.025);
 		}
+	}
+}
+
+.video-wrapper{
+	position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 0;
+  height: 0;
+  & iframe{
+  	position: absolute;
+ 	 	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+  }
+}
+
+.modal-video{
+	& .content{
+		margin: 4rem 0 3rem 0;
 	}
 }
 

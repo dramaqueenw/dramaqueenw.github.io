@@ -108,6 +108,11 @@
       max-width: 1136px;
     }
   }
+  .modal-video{
+    & .content{
+      margin: 2.5rem 0 3rem 0;
+    }
+  }
 }
 
 // lg - from 1460

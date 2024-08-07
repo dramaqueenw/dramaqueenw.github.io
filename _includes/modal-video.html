@@ -1,0 +1,26 @@
+<!-- Modal video -->
+<div id="{{ video.modal }}" class="uk-modal-full" uk-modal>
+  <div class="uk-modal-dialog">
+        <!-- wrapper -->
+        <div class="wrapper container-fluid">
+          <!-- row -->
+          <div class="row">
+            <div class="col-xs-12 end-xs">
+              <a class="uk-modal-close modal-close" uk-close><span class="icon icon-close" type="button"></span></a>
+            </div>
+          </div>
+          <!-- row end -->          
+          <!-- row -->
+          <div class="row modal-video middle-xs">
+            <!-- col -->
+            <div class="col-xs-12 col-lg-10">
+               <iframe title="vimeo-player" src="{{ video.embed }}" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <!-- col end -->
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- wrapper end -->
+    </div>
+</div>
+<!-- Modal video end -->

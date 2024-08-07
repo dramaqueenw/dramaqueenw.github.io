@@ -30,13 +30,15 @@ h1, h2, h3, h4, h5, h6{
 p{
 	color: $bright;
 	font-size: 1.2rem;
-	line-height: 175%;
+	line-height: 160%;
 	font-family: $paragraph;
+	font-weight: $light;
 }
 
 li{
 	font-size: 1.2rem;
 	line-height: 175%;
+	font-weight: $light;
 }
 
 h1{

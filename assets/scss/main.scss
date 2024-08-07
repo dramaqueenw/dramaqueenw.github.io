@@ -78,6 +78,10 @@ h5{
 	font-size: 1rem;
 }
 
+.small{
+	font-size: 0.79rem;
+}
+
 ul{
 	padding: 0;
 }
@@ -461,4 +465,42 @@ a{
 
 .video-content{
 	margin-bottom: 3rem;
+	& strong{
+		font-weight: $semibold;
+	}
+	& em{
+		color: $bright;
+	}
+	& a{
+			border-bottom: 1px solid $bright;
+			padding-bottom: .125rem;
+		&:hover{
+			color: $highlight;
+			border-bottom: 1px solid $highlight;
+			padding-bottom: .125rem;
+		}
+	}
+}
+
+// Contacto
+
+.contact{
+	& .h1-giant{
+		font-size: 2.281rem;
+	}
+	& a{
+		border-bottom: 2px solid $transparent;
+		padding-bottom: .75rem;
+		transition: $transition;
+		&:hover{
+			text-decoration: none;
+			border-bottom: 2px solid $bright;
+		}
+	}
+	& .social{
+		& li{
+			margin-right: .75rem;
+			padding: 0;
+		}
+	}
 }

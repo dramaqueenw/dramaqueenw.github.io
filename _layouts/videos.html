@@ -7,7 +7,7 @@
 		{% include nav-xs-inside.html%}	
 		{% include nav-lg.html%}
 
-		<section class="video-gallery">
+		<section class="video-gallery" uk-scrollspy="cls: uk-animation-fade; delay: 100">
 			<!-- wrapper -->
 			<div class="wrapper container-fluid">
 				<!-- row -->
@@ -44,7 +44,7 @@
 		          </div>
 		          <!-- row end -->          
 		          <!-- row -->
-		          <div class="row content middle-xs">
+		          <div class="row content middle-xs" uk-scrollspy="cls: uk-animation-fade; delay: 100">
 		            <!-- col -->
 		            <div class="col-xs-12 col-lg-10 col-lg-offset-1">
 		            	<div class="video-wrapper">
@@ -54,7 +54,7 @@
 		            	<div class="video-content">
 	            			{{ video.content }}
 		            	</div>
-		            	<a class="button" href="">Cerrar</a>
+		            	<a class="button" href="">{{ site.modal-video-button }}</a>
 		            </div>
 		            <!-- col end -->
 

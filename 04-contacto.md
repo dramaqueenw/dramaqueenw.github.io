@@ -1,7 +1,7 @@
 ---
 title: Contacto
-heading: '¡Hola! ¿Conspiramos?'
 permalink: "/contacto/"
+heading: "¡Hola! ¿Conspiramos?"
 layout: contacto
 ---
 

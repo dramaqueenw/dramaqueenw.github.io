@@ -14,7 +14,7 @@
 				<div class="row">
 					<!-- col -->
 					{% for video in site.videos %}
-					<div class="col-xs-12 col-sm-6 col-lg-4">
+					<div class="col-xs-12 col-sm-6 col-lg-4 video-thumbnail">
 						<a uk-toggle="target: #{{ video.modal }}">
 							<figure>
 								<img src="{{ video.image }}" alt="">
@@ -50,8 +50,10 @@
 		            	<div class="video-wrapper">
 		            		<iframe title="vimeo-player" src="{{ video.embed }}" frameborder="0" allowfullscreen uk-video></iframe>
 		            	</div>
+		            	<h2>{{ video.title }}</h2>
 		            </div>
 		            <!-- col end -->
+
 		          </div>
 		          <!-- row end -->
 		        </div>

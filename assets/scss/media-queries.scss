@@ -52,6 +52,7 @@
     margin-top: 3rem;
     & h2{
       font-size: 2.563rem;
+      letter-spacing: .35rem;
     }
     & .row{
       & .col-lg-6{
@@ -108,9 +109,20 @@
       max-width: 1136px;
     }
   }
+  .video-gallery{
+    & h4{
+      line-height: 1.9rem;
+    }
+  }
+  .video-thumbnail{
+    margin-bottom: 1rem;
+  }
   .modal-video{
     & .content{
       margin: 2.5rem 0 3rem 0;
+    }
+    & h2{
+      font-size: 2.566rem;
     }
   }
 }

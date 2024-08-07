@@ -384,9 +384,23 @@ a{
   }
 }
 
+.video-gallery{
+	& h4{
+    line-height: 1.9rem;
+  }
+}
+
+.video-thumbnail{
+	margin-bottom: 2rem;
+}
+
 .modal-video{
 	& .content{
 		margin: 4rem 0 3rem 0;
+	}
+	& h2{
+		font-size: 1.602rem;
+		letter-spacing: .25rem;
 	}
 }
 

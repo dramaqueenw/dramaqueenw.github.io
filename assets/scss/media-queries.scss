@@ -27,6 +27,22 @@
   .home-subtitle{
     font-size: 2rem;
   }
+  h2{
+    font-size: 2.566rem;
+    letter-spacing: .425rem;
+  }
+  h3{
+    font-size: 2.027rem;
+    letter-spacing: .375rem;
+  }
+  h4{
+    font-size: 1.802rem;
+    letter-spacing: .35rem;
+  }
+  h5{
+    font-size: 1.602rem;
+    letter-spacing: .325rem;
+  }
   .making-stories{
     margin-top: 4rem;
     & header{
@@ -123,6 +139,7 @@
     }
     & h2{
       font-size: 2.566rem;
+      letter-spacing: .425rem;
     }
   }
 }

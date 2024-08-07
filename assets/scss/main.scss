@@ -39,6 +39,8 @@ li{
 	font-size: 1.2rem;
 	line-height: 175%;
 	font-weight: $light;
+	list-style-type: '∙';
+  padding-inline-start: .5rem;
 }
 
 h1{
@@ -46,18 +48,34 @@ h1{
 	font-size: 2.5rem;
 }
 
-h2{
+h2, h3, h4, h5, h6{
 	font-family: $sub-heading;
-	font-weight: 400;
+	font-weight: 400;	
+}
+
+h2{
 	letter-spacing: .3rem;	
 	font-size: 1.802rem;
 }
 
 h3{
-	font-family: $sub-heading;
-	font-weight: 400;
 	letter-spacing: .26rem;
-	font-size: 1.419rem;
+	font-size: 1.266rem;
+}
+
+h4{
+	letter-spacing: .24rem;
+	font-size: 1.125rem;
+}
+
+h4{
+	letter-spacing: .24rem;
+	font-size: 1.125rem;
+}
+
+h5{
+	letter-spacing: .24rem;
+	font-size: 1rem;
 }
 
 ul{
@@ -408,7 +426,7 @@ a{
 
 .modal-nav{
 	& header{
-		margin: 5rem 0 3rem 0;
+		margin: 5rem 0 6rem 0;
 		& h2{
 			font-family: $heading;
 			letter-spacing: initial;
@@ -439,4 +457,8 @@ a{
 			}
 		}		
 	}
+}
+
+.video-content{
+	margin-bottom: 3rem;
 }

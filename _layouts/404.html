@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+	{%- include head.html -%}
+
+	<body>
+		{% include nav-xs-inside.html%}	
+		{% include nav-lg-inside.html%}
+
+		<section class="mensaje-enviado cuatro-cero" uk-scrollspy="cls: uk-animation-fade; delay: 100">
+			<!-- wrapper -->
+			<div class="wrapper container-fluid">
+				<!-- row -->
+				<div class="row center-xs">
+					<!-- col -->
+					<div class="col-xs-12 col-sm-10 col-lg-8">
+						<h1 class="h1-giant">{{ page.heading }}</h1>
+						<h1>{{ page.content }}</h1>
+						<a href="/" class="button">{{ page.button }}</a>
+		            </div>
+		            <!-- col end -->					
+				</div>
+				<!-- row end -->
+			</div>
+			<!-- wrapper end -->
+		</section>
+
+		{% include modal-nav.html%}
+
+	</body>
+
+</html>		

@@ -7,13 +7,13 @@
 		{% include nav-xs-inside.html%}	
 		{% include nav-lg-inside.html%}
 
-		<section class="contact">
+		<section class="contact" uk-scrollspy="cls: uk-animation-fade; delay: 100">
 			<!-- wrapper -->
 			<div class="wrapper container-fluid">
 				<!-- row -->
 				<div class="row">
 					<!-- col -->
-					<div class="col-xs-12 col-lg-6">
+					<div class="col-xs-12 col-lg-6 contact-text">
 						<h1 class="h1-giant">{{ page.heading }}</h1>
 						<p>{{ page.content }}</p>
 						<ul class="inline social">
@@ -23,23 +23,23 @@
 						</ul>
 					</div>
 					<!-- col end -->
-	            <!-- col -->
-	            <div class="col-xs-12 col-lg-6">
-	              <form class="contact-form" action="https://formsubmit.co/{{ site.email }}" method="POST" accept-charset="UTF-8">
-	                <input type="hidden" name="_next" value="{{ site.url }}/mensaje-enviado">
-	                <input type="text" name="_honey" style="display:none">
-	                <label for="name">Nombre*</label>
-	                <input type="text" name="yourName" id="name" placeholder="ej: Camila Queen" required>
-	                <label for="email">Correo electrónico*</label>
-	                <input type="email" id="email" name="yourEmail" placeholder="ej: camila@dramaqueen.com" required>
-	                <input type="hidden" name="_gotcha"><!-- use this to prevent spam -->
-	                <label for="message">Mensaje*</label>
-	                <textarea id="message" name="yourMessage" placeholder="Escribe lo que quieres decir" required></textarea>
-	                <p class="small">*Campos requeridos</p>
-	                <button class="button" type="submit">Enviar</button>
-	              </form>
-	            </div>
-	            <!-- col end -->					
+		            <!-- col -->
+		            <div class="col-xs-12 col-lg-6">
+		              <form class="contact-form" action="https://formsubmit.co/{{ site.email }}" method="POST" accept-charset="UTF-8">
+		                <input type="hidden" name="_next" value="{{ site.url }}/mensaje-enviado">
+		                <input type="text" name="_honey" style="display:none">
+		                <label for="name">Nombre*</label>
+		                <input type="text" name="yourName" id="name" placeholder="ej: Camila Queen" required>
+		                <label for="email">Correo electrónico*</label>
+		                <input type="email" id="email" name="yourEmail" placeholder="ej: camila@dramaqueen.com" required>
+		                <input type="hidden" name="_gotcha"><!-- use this to prevent spam -->
+		                <label for="message">Mensaje*</label>
+		                <textarea id="message" name="yourMessage" placeholder="Escribe lo que quieres decir" required></textarea>
+		                <p class="small">*Campos requeridos</p>
+		                <button class="button" type="submit">Enviar</button>
+		              </form>
+		            </div>
+		            <!-- col end -->					
 				</div>
 				<!-- row end -->
 			</div>

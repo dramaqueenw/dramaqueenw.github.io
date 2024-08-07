@@ -72,6 +72,31 @@ a{
 	}
 }
 
+.button{
+	padding: .75rem 1.2rem;
+	color: $dark;
+	background-color: $bright;
+	border: 2px solid $bright;
+	display: inline-block;
+	margin-bottom: 1.2rem;
+	font-family: $heading;
+	font-size: 1.269rem;
+	transition: $transition;
+	&:hover{
+		color: $bright;
+		background-color: $transparent;
+	}
+}
+
+.button-ghost{
+	background-color: $transparent;
+	color: $bright;
+	&:hover{
+		color: $dark;
+		background-color: $bright;
+	}
+}
+
 // Home
 
 .home{
@@ -272,14 +297,8 @@ a{
 	& h2{
 		font-size: 2rem;
 		letter-spacing: .25rem;
+		margin-bottom: .25rem;
 		}
-	& a{
-		font-size: 1.125rem;
-		font-weight: $bold;
-	}
-	& .queen-imdb{
-		margin-bottom: 2rem;
-	}
 	& .imdb{
 		position: relative;
 		top: -3.5rem;
@@ -303,7 +322,17 @@ a{
 		}
 	}
 	& .content{
-		margin-top: -1rem;
+		margin-top: .5rem;
+	}
+}
+
+.button-imdb{
+	padding: .25rem 1.2rem .75rem 1.2rem;
+	& .icon-imdb{
+		font-size: 2rem;
+		margin-right: .75rem;
+		position: relative;
+		top: .5rem;
 	}
 }
 

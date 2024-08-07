@@ -135,7 +135,8 @@
   }
   .modal-video{
     & .content{
-      margin: 2.5rem 0 3rem 0;
+      margin: 2.5rem auto 3rem auto;
+      max-width: 1136px;
     }
     & h2{
       font-size: 2.566rem;

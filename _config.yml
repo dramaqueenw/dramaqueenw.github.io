@@ -24,7 +24,7 @@ collections:
     title: Uploads
     output: true
   videos:
-    title: Video
+    title: Videos
     output: true
 subtitle: Making Stories
 email: camila.bruges@gmail.com

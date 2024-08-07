@@ -3,12 +3,13 @@ title: Contacto
 permalink: "/contacto/"
 heading: "¡Hola! ¿Conspiramos?"
 layout: contacto
-Nombre: 'Nombre*'
+nombre: 'Nombre*'
 placeholder-nombre: 'ej: Camila Queen'
-Correo: 'Correo electrónico*'
+correo: 'Correo electrónico*'
 placeholder-correo: 'ej: camila@dramaqueen.com'
-Mensaje: 'Mensaje*'
+mensaje: 'Mensaje*'
 placeholder-mensaje: 'Escribe lo que quieres decir'
+campos-requeridos: 'Campos requeridos*'
 ---
 
 Escribenos un mensaje llenando este formulario, o búscanos en la plataforma que prefieras.

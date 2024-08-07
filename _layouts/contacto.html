@@ -28,14 +28,14 @@
 		              <form class="contact-form" action="https://formsubmit.co/{{ site.email }}" method="POST" accept-charset="UTF-8">
 		                <input type="hidden" name="_next" value="{{ site.url }}/mensaje-enviado">
 		                <input type="text" name="_honey" style="display:none">
-		                <label for="name">Nombre*</label>
-		                <input type="text" name="yourName" id="name" placeholder="ej: Camila Queen" required>
-		                <label for="email">Correo electrónico*</label>
-		                <input type="email" id="email" name="yourEmail" placeholder="ej: camila@dramaqueen.com" required>
+		                <label for="name">{{ page.nombre }}</label>
+		                <input type="text" name="yourName" id="name" placeholder="{{ page.placeholder-nombre }}" required>
+		                <label for="email">{{ page.correo }}</label>
+		                <input type="email" id="email" name="yourEmail" placeholder="{{ page.placeholder-correo }}" required>
 		                <input type="hidden" name="_gotcha"><!-- use this to prevent spam -->
-		                <label for="message">Mensaje*</label>
-		                <textarea id="message" name="yourMessage" placeholder="Escribe lo que quieres decir" required></textarea>
-		                <p class="small">*Campos requeridos</p>
+		                <label for="message">{{ page.mensaje }}</label>
+		                <textarea id="message" name="yourMessage" placeholder="{{ page.placeholder-mensaje }}" required></textarea>
+		                <p class="small">{{ page.campos-requeridos }}</p>
 		                <button class="button" type="submit">Enviar</button>
 		              </form>
 		            </div>

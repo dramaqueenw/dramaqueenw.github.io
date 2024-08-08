@@ -32,7 +32,7 @@ description: Descripción pendiente
 tagline: Descripción pendiente
 image: "/assets/images/dramaqueen-card-image.jpg"
 baseurl: 'https://dramaqueenw.github.io'
-url: '/'
+url: 'https://dramaqueenw.github.io'
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -31,6 +31,7 @@ email: camila.bruges@gmail.com
 description: Descripción pendiente
 tagline: Descripción pendiente
 image: /assets/images/dramaqueen-card-image.jpg
+image: "/assets/images/dramaqueen-card-image.jpg"
 baseurl: 
 url: https://dramaqueenw.github.io
 author: dramaqueen_ms

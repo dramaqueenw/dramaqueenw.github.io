@@ -31,8 +31,29 @@ email: camila.bruges@gmail.com
 description: Descripción pendiente
 tagline: Descripción pendiente
 image: "/assets/images/dramaqueen-card-image.jpg"
-baseurl: 'https://dramaqueenw.github.io'
-url: 'https://dramaqueenw.github.io'
+baseurl:
+url: https://dramaqueenw.github.io
+author: dramaqueen_ms
+theme: minima
+author: 
+github_username: dramaqueenw
+url: https://dramaqueenw.github.io
+author: 
+theme: minima
+github: dramaqueenw
+x: dramaqueen_ms
+locale: es_CO
+twitter:
+  username: dramaqueen_ms
+  card: summary
+instagram: dramaqueenstories
+vimeo: dramaqueenstories
+modal-video-button: Cerrar
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-sitemap
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -53,24 +74,3 @@ url: 'https://dramaqueenw.github.io'
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-author: dramaqueen_ms
-theme: minima
-author: 
-github_username: dramaqueenw
-=======
-url: https://dramaqueenw.github.io
-author: 
-theme: minima
-github: dramaqueenw
-x: dramaqueen_ms
-locale: es_CO
-twitter:
-  username: dramaqueen_ms
-  card: summary
-instagram: dramaqueenstories
-vimeo: dramaqueenstories
-modal-video-button: Cerrar
-plugins:
-- jekyll-feed
-- jekyll-seo-tag
-- jekyll-sitemap

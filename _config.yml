@@ -30,15 +30,35 @@ subtitle: Making Stories
 email: camila.bruges@gmail.com
 description: Descripción pendiente
 tagline: Descripción pendiente
-image: /assets/images/dramaqueen-card-image.jpg
 image: "/assets/images/dramaqueen-card-image.jpg"
 baseurl: 
-url: https://dramaqueenw.github.io
+url: 'https://dramaqueenw.github.io'
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
 author: dramaqueen_ms
 theme: minima
 author: 
-github: dramaqueenw
+github_username: dramaqueenw
 x: dramaqueen_ms
+locale: es_CO
 twitter:
   username: dramaqueen_ms
   card: summary
@@ -48,3 +68,4 @@ modal-video-button: Cerrar
 plugins:
 - jekyll-feed
 - jekyll-seo-tag
+- jekyll-sitemap

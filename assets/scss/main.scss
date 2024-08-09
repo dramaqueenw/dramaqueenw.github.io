@@ -585,6 +585,9 @@ form{
 	width: 100%; 
 	min-width: 1200px; 
 	margin-left: 0;
+	& li{
+		padding-inline-start: 0;
+	}
 }
 
 .slider{ 

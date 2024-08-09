@@ -1,38 +1,58 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "es" }}">
+<html class="home-html" lang="{{ page.lang | default: site.lang | default: "es" }}">
 
 	{%- include head.html -%}
 
 	<body class="home">
 
+
+		<div class="nav-home">
 		{% include nav-xs.html%}	
 		{% include nav-lg.html%}
+		</div>
 
-	    <!-- header -->
-	    <section class="header">
-	    	<!-- wrapper -->
-	    	<div class="wrapper">
-	    		<!-- row -->
-	    		<div class="row center-xs middle-xs header-row">
-	    			<!-- col -->
-		    		<div class="col-xs-12 ">
-		    			<h1 class="home-title">{{ page.title }}</h1>
-	    				<h2 class="home-subtitle">{{ page.subtitle }}</h2>
-	    			</div>
-	    			<!-- col end -->
-	    		</div>
-	    		<!-- row end -->
+	    <!-- slideshow -->
+	    <div id="wrapper">
+		   	<div class="slider slider1">
+	    		<ul id="slider1">
+				  <li><img src="assets/images/home-slideshow/bertha.jpg"></li>
+				  <li><img src="assets/images/home-slideshow/camila.jpg"></li>
+				  <li><img src="assets/images/home-slideshow/juliana.jpg"></li>
+				  <li><img src="assets/images/home-slideshow/lali.jpg"></li>
+	    		  <li><img src="assets/images/home-slideshow/lourdes.jpg"></li>
+				  <li><img src="assets/images/home-slideshow/rita.jpg"></li>
+				  <li><img src="assets/images/home-slideshow/sarita.jpg"></li>
+				  <li><img src="assets/images/home-slideshow/viuda.jpg"></li>
+				</ul>
 	    	</div>
-	    	<!-- wrapper end -->
-	    </section>
-	    <!-- header end -->
+      		<div class="clear"></div>
+    		<div class="slider slider2">
+	    		<ul id="slider2">
+				  <li><img src="assets/images/home-slideshow/bertha-bottom.jpg"></li>
+				  <li><img src="assets/images/home-slideshow/camila-bottom.jpg"></li>
+				  <li><img src="assets/images/home-slideshow/juliana-bottom.jpg"></li>
+				  <li><img src="assets/images/home-slideshow/lali-bottom.jpg"></li>
+	    		  <li><img src="assets/images/home-slideshow/lourdes-bottom.jpg"></li>
+				  <li><img src="assets/images/home-slideshow/rita-bottom.jpg"></li>
+				  <li><img src="assets/images/home-slideshow/sarita-bottom.jpg"></li>
+				  <li><img src="assets/images/home-slideshow/viuda-bottom.jpg"></li>
+				</ul>
+    		</div>
+	    </div>
+	    <!-- slideshow end -->
 
-	    {% include slideshow-xs.html%}
-	    {% include slideshow-sm.html%}
-	    {% include slideshow-lg.html%}
+	    <!-- heading -->
+	    <div class="big-heading">
+	    	<div class="vertical-center">
+				<h1 class="home-title">{{ page.title }}</h1>
+				<h2 class="home-subtitle">{{ page.subtitle }}</h2>
+	    	</div>
+	    </div>
+	    <!-- heading end -->
 
 	    {% include modal-nav.html%}
 
+	    {% include footer.html%}
 	</body>
 
 </html>

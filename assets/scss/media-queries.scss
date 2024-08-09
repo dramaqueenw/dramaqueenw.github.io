@@ -11,6 +11,34 @@
   }
 }
 
+// xs - from 412px
+@media only screen and (min-width: 25.75em){
+  #wrapper{ 
+    left: -102%; 
+  }
+}
+
+// xs - from 420px
+@media only screen and (min-width: 26.25em){
+  #wrapper{ 
+    left: -97.5%; 
+  }
+}
+
+// xs - from 550px
+@media only screen and (min-width: 28.063em){
+  #wrapper{ 
+    left: -77.5%; 
+  }
+}
+
+// xs - from 549px
+@media only screen and (min-width: 34.375em){
+  #wrapper{ 
+    left: -35.5%; 
+  }
+}
+
 // sm - from 768
 @media only screen and (min-width: 48em) {
   // visible/hidden
@@ -87,6 +115,9 @@
   .mensaje-enviado{
     margin-top: 8rem;
   }
+  #wrapper{ 
+    left: -26%; 
+  }
 }
 
 // lg - from 962
@@ -160,6 +191,9 @@
   }
   .contact-text{
     padding-right: 1.5rem;
+  }
+  #wrapper{ 
+    left: 0; 
   }
 }
 

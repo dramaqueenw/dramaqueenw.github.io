@@ -11,6 +11,13 @@
   }
 }
 
+// xs - from 390px
+@media only screen and (min-width: 24.375em){
+  #wrapper{ 
+    left: -108.5%; 
+  }
+}
+
 // xs - from 412px
 @media only screen and (min-width: 25.75em){
   #wrapper{ 

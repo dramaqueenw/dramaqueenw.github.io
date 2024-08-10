@@ -1,0 +1,19 @@
+<!-- slideshow -->
+<div id="wrapper">
+   	<div class="slider slider1">
+		<ul id="slider1">
+			{% for up-character in site.up-characters %}	
+		  		<li><img src="{{ up-character.image }}"></li>
+		  	{% endfor %}
+		</ul>
+	</div>
+		<div class="clear"></div>
+	<div class="slider slider2">
+		<ul id="slider2">
+			{% for down-character in site.down-characters %}	
+		  		<li><img src="{{ down-character.image }}"></li>
+		  	{% endfor %}
+		</ul>
+	</div>
+</div>
+<!-- slideshow end -->

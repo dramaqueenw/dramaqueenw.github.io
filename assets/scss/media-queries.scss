@@ -32,17 +32,45 @@
   }
 }
 
-// xs - from 550px
-@media only screen and (min-width: 28.063em){
+// xs - from 430px
+@media only screen and (min-width: 27.5em){
   #wrapper{ 
-    left: -77.5%; 
+    left: -90.5%; 
   }
 }
 
-// xs - from 549px
+// xs - from 465px
+@media only screen and (min-width: 29.063em){
+  #wrapper{ 
+    left: -72.5%; 
+  }
+}
+
+// xs - from 550px
 @media only screen and (min-width: 34.375em){
   #wrapper{ 
-    left: -35.5%; 
+    left: -60.5%; 
+  }
+}
+
+// xs - from 620px
+@media only screen and (min-width: 38.75em){
+  #wrapper{ 
+    left: -50.5%; 
+  }
+}
+
+// xs - from 680px
+@media only screen and (min-width: 42.5em){
+  #wrapper{ 
+    left: -40.5%; 
+  }
+}
+
+// xs - from 740px
+@media only screen and (min-width: 42.5em){
+  #wrapper{ 
+    left: -32.5%; 
   }
 }
 
@@ -127,7 +155,15 @@
   }
 }
 
-// lg - from 962
+// xs - from 900px
+@media only screen and (min-width: 56.25em){
+  #wrapper{ 
+    left: -19.5%; 
+  }
+}
+
+
+// lg - from 992
 @media only screen and (min-width: 62em) {
   // visible/hidden
   .visible-lg{
@@ -200,13 +236,34 @@
     padding-right: 1.5rem;
   }
   #wrapper{ 
-    left: 0; 
+    left: -14%; 
   }
 }
 
-// lg - from 1460
-@media only screen and (min-width: 91.25em) {
-  .slideshow{
-    top: -105vh;
+// LG - from 1024px
+@media only screen and (min-width: 64em){
+  #wrapper{ 
+    left: -11%; 
+  }
+}
+
+// LG - from 1074px
+@media only screen and (min-width: 67.125em){
+  #wrapper{ 
+    left: -4%; 
+  }
+}
+
+// lg - from 1224px
+@media only screen and (min-width: 76.5em){
+  #wrapper{ 
+    left: -1%; 
+  }
+}
+
+// lg - from 1440px
+@media only screen and (min-width: 90em){
+  #wrapper{ 
+    left: 0; 
   }
 }

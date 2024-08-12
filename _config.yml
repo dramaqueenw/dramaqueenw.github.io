@@ -5,11 +5,11 @@ collections:
   cosas:
     title: Cosas
     output: true
-  up-characters:
-    title: Personajes arriba
-    output: true
   down-characters:
     title: Personajes abajo
+    output: true
+  up-characters:
+    title: Personajes arriba
     output: true
   platforms:
     title: Plataformas

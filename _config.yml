@@ -6,10 +6,10 @@ collections:
     title: Cosas
     output: true
   up-characters:
-    title: Personajes abajo
+    title: Personajes arriba
     output: true
   down-characters:
-    title: Personajes arriba
+    title: Personajes abajo
     output: true
   platforms:
     title: Plataformas

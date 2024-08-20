@@ -7,7 +7,11 @@ image: "/assets/images/videos/video-thumbnail-03.jpg"
 ---
 
 Uniandes - Observatorio de la democracia
+
 Producción, concepto y guión: Drama Queen
+
 Animación: Plot studio
+
 Diseño sonoro: audiopost
+
 Voces: Gloria Gómez, Lucero Gómez, Lineyi

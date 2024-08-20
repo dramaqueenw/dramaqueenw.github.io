@@ -7,7 +7,11 @@ image: "/assets/images/videos/video-thumbnail-06.jpg"
 ---
 
 Producción ejecutiva: Drama Queen
+
 Concepto y guión: Drama Queen
+
 Animación: Plot studios
+
 Psot producción audio y musicalización: Audiopost
-Locución: Gloria Gómez.
+
+Locución: Gloria Gómez
